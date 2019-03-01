@@ -213,4 +213,14 @@ Run the exploit in the background expecting one or more sessions that are immedi
 msf > exploit –j
 ```
 
+- ##### List all current jobs `exploit listeners`:
 
+```
+msf > jobs –l
+```
+
+- ##### Kill a job:
+
+```
+msf > jobs –k [JobID]
+```
