@@ -139,7 +139,6 @@ For example run msfvenom with ``-l encoders`` to get a list of encoders.
     LPORT=[LocalPort]
 
 -  Example: Encode a payload from msfpayload 5 times using shikata-ga-nai encoder and output as executable:
-   ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
@@ -150,10 +149,8 @@ For example run msfvenom with ``-l encoders`` to get a list of encoders.
 --------------
 
 Metasploit Meterpreter
-~~~~~~~~~~~~~~~~~~~~~~
 
 -  Base Commands:
-   ''''''''''''''
 
    -  ``? / help`` : Display a summary of commands exit / quit: Exit the
       Meterpreter session
@@ -163,7 +160,6 @@ Metasploit Meterpreter
    -  ``shutdown / reboot`` : Self-explanatory
 
 -  File System Commands:
-   '''''''''''''''''''''
 
    -  ``cd`` : Change directory
 
@@ -182,7 +178,6 @@ Metasploit Meterpreter
    -  ``edit`` : Open a file in the default editor (typically vi)
 
 -  Process Commands:
-   '''''''''''''''''
 
    -  ``getpid`` : Display the process ID that Meterpreter is running
       inside.
@@ -199,7 +194,6 @@ Metasploit Meterpreter
    -  ``migrate`` : Jump to a given destination process ID
 
 -  Network Commands:
-   '''''''''''''''''
 
    -  ``ipconfig`` : Show network interface information
 
@@ -208,7 +202,6 @@ Metasploit Meterpreter
    -  ``route`` : Manage/view the system's routing table
 
 -  Other Commands:
-   '''''''''''''''
 
    -  ``idletime``: Display the duration that the GUI of thetarget
       machine has been idle.
@@ -220,7 +213,6 @@ Metasploit Meterpreter
       machine.
 
 -  Additional Modules:
-   '''''''''''''''''''
 
    -  ``use [module]`` : Load the specified module
 
