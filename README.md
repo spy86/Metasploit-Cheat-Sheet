@@ -99,7 +99,7 @@ LPORT=4444 > met.exe
 
 - ##### Format Options **(specified with –f)** --help-formats – List available output formats
 
-    *`-exe` – Executable
+    * `-exe` – Executable
     * `-pl` – Perl
     * `-rb` – Ruby
     * `-raw` – Raw shellcode
