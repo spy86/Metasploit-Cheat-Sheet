@@ -98,13 +98,13 @@ LPORT=4444 > met.exe
 ```
 
 - ##### Format Options **(specified with –f)** --help-formats – List available output formats
-#
-    * `-exe` – Executable
-    * `-pl` – Perl
-    * `-rb` – Ruby
-    * `-raw` – Raw shellcode
-    * `-c` – C code
-#
+
+    -  `-exe` – Executable
+    -  `-pl` – Perl
+    -  `-rb` – Ruby
+    -  `-raw` – Raw shellcode
+    -  `-c` – C code
+
 - ##### Encoding Payloads with msfvenom
 
 msfvenom can be used to apply a level of encoding for anti-virus bypass. For example run msfvenom with `-l encoders` to get a list of encoders.
