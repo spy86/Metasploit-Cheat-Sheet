@@ -244,52 +244,44 @@ Multiple Exploitation:
 ''''''''''''''''''''''
 
 -  Run the exploit expecting a single session that is immediately backgrounded:
-   ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
     msf > exploit -z
 
 -  Run the exploit in the background expecting one or more sessions that are immediately backgrounded:
-   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
     msf > exploit –j
 
 -  List all current jobs ``exploit listeners``:
-   ''''''''''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
     msf > jobs –l
 
 -  Kill a job:
-   '''''''''''
 
 .. code:: bash
 
     msf > jobs –k [JobID]
 
 Multiple Sessions:
-''''''''''''''''''
 
 -  List all backgrounded sessions:
-   '''''''''''''''''''''''''''''''
 
 .. code:: bash
 
     msf > sessions -l
 
 -  Interact with a backgrounded session:
-   '''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
     msf > session -i [SessionID]
 
 -  Background the current interactive session:
-   '''''''''''''''''''''''''''''''''''''''''''
 
 .. code:: bash
 
@@ -302,7 +294,6 @@ or
     meterpreter > background
 
 -  Routing Through Sessions:
-   '''''''''''''''''''''''''
 
 All modules against the target subnet mask will be pivoted through this
 session.
