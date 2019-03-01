@@ -68,3 +68,13 @@ msf > use auxiliary/server/ftp
 msf > set FTPROOT /tmp/ftproot
 msf > run
 ```
+
+- ###### Proxy Server:
+
+```
+msf > use auxiliary/server/socks4
+msf > run 
+```
+***
+
+
