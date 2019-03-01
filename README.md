@@ -215,12 +215,48 @@ msf > exploit –j
 
 - ##### List all current jobs `exploit listeners`:
 
-```
+```bash
 msf > jobs –l
 ```
 
 - ##### Kill a job:
 
-```
+```bash
 msf > jobs –k [JobID]
 ```
+
+#####  Multiple Sessions:
+
+- ##### List all backgrounded sessions:
+
+```bash
+msf > sessions -l
+```
+
+- ##### Interact with a backgrounded session:
+
+```bash
+msf > session -i [SessionID]
+```
+
+- #####  Background the current interactive session:
+
+```bash
+meterpreter > <Ctrl+Z>
+```
+
+or
+
+```bash
+meterpreter > background
+```
+
+- ##### Routing Through Sessions:
+
+All modules against the target subnet mask will be pivoted through this session.
+
+```bash
+msf > route add [Subnet to Route To]
+[Subnet Netmask] [SessionID]
+```
+***
